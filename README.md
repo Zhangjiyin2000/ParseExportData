@@ -16,25 +16,25 @@ Write the following program. Be sure to see the sample program in this lesson's 
 
 Write a method named tester that will create your CSVParser and call each of the methods below in parts 2, 3, 4, and 5. You would start your code with:
 
-```
+```java
 FileResource fr = new FileResource();
 CSVParser parser = fr.getCSVParser();
 Each time you want to use the parser with another method, you will need to reset the             parser by calling fr.getCSVParser() again to get a new parser.
 ```
 
-```
+```java
 parser = fr.getCSVParser();
 ```
 
 2. Write a method named countryInfo that has two parameters, parser is a CSVParser and country is a String. This method returns a string of information about the country or returns “NOT FOUND” if there is no information about the country. The format of the string returned is the country, followed by “: “, followed by a list of the countries’ exports, followed by “: “, followed by the countries export value. For example, using the file exports_small.csv and the country Germany, the program returns the string:
 
-```
+```java
 Germany: motor vehicles, machinery, chemicals: $1,547,000,000,000
 ```
 
 3. Write a void method named listExportersTwoProducts that has three parameters, parser is a CSVParser, exportItem1 is a String and exportItem2 is a String. This method prints the names of all the countries that have both exportItem1 and exportItem2 as export items. For example, using the file exports_small.csv, this method called with the items “gold” and “diamonds” would print the countries
 
-```
+```java
 Namibia
 South Africa
 ```
