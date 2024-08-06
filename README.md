@@ -4,6 +4,7 @@ About Assignments as part of the course "Java Programming: Solving Problems with
 # Programming Exercise: Parsing Export Data
 
 Assignment
+
 The CSV file exportdata.csv has information on the export products of countries; you can download a .zip folder with this and other export data files 
 here
 . In particular it has three column headers labeled Country, Exports, and Value (dollars). The Country column represents a country from the world, the Exports column is a list of export items for a country, and the Value (dollars) column is the dollar amount in millions of their exports in the format of a dollar sign, followed by an integer number with a comma separator every three digits from the right. An example of such a value might be “$400,000,000”.
@@ -14,7 +15,7 @@ The CSV file exports_small.csv is a smaller version of the file above with the s
 
 Write the following program. Be sure to see the sample program in this lesson's videos.
 
-Write a method named tester that will create your CSVParser and call each of the methods below in parts 2, 3, 4, and 5. You would start your code with:
+1. Write a method named tester that will create your CSVParser and call each of the methods below in parts 2, 3, 4, and 5. You would start your code with:
 
 ```java
 FileResource fr = new FileResource();
